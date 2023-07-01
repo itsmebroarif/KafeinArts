@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+#header{
+    padding-top: 1rem;
+    background-color: #2E6171;
+    color: #fff;
+}
+
+.jumbotron{
+    margin-top: 6rem;
+}
+
+.bg-colorCustom{
+    background-color: #2E6171;
+    color: white;
+}
+
+section{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .price {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  .features {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  .features li {
+    margin-bottom: 0.75rem;
+  }
+  
+  /* Custom CSS */
+  @media (min-width: 576px) {
+    .card {
+      min-height: 300px;
+    }
+  }
+
+  .section-padding {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-top: 6rem;
+  }
+
+  .bottom {
+    margin-top: 4rem;
+    background-color: #0e1c42;
+  }
+
+  .bottom .copyright {
+    color: #e5e5e5;
+    font-weight: 600;
+  }
+
+  .copyright a {
+    color: #f2ff49;
+    margin-left: 3px;
+    padding-right: 3px;
+  }
+
+  .bottom p {
+    margin-bottom: 0;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .copyright p span {
+    color: #d1caca;
+  }
+
+  .bottom .copyright p,
+  .bottom .copyright a:hover {
+    color: #6c6d83;
+  }
